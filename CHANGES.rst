@@ -4,6 +4,9 @@ Change History
 3.9 (unreleased)
 ================
 
+- Enabled updateLog directive to create a transaction log.
+  Required for atomic updates to work.
+  [lgraf]
 - Allow ``cores`` to be separated by newlines rather than just spaces.
   [domruf]
 - solr 4.0 support [silviot]
